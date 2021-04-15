@@ -23,7 +23,7 @@ body {
     margin: 0;
 }
 .grafico_um {
-    width: 40%;
+    width: 41%;
     float: left;
     margin-left: 120px;
     margin-top: 30px;
@@ -31,19 +31,19 @@ body {
 }
 .grafico_dois {
     float: left;
-    width: 40%;
+    width: 41%;
     margin-left: 20px;
     margin-top: 30px;
 }
 .grafico_tres {
-    width: 40%;
+    width: 41%;
     float: left;
     margin-left: 120px;
     margin-top: 20px;
 }
 .grafico_quatro {
     float: left;
-    width: 40%;
+    width: 41%;
     margin-left: 20px;
     margin-top: 20px;
 }

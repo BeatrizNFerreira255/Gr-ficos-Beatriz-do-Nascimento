@@ -37,10 +37,10 @@
     var meuGrafico = new Chart(ctx, {
         type: 'doughnut',
         data: {
-            labels: ["abr", "mar", "fev", "jan"],
+            labels: [ "abr", "mar", "fev", "jan"  ],
             datasets: [{
-                label: "Rendimentos 2021",
-                data: [300, 50, 100, 60],
+                label: 'My First Dataset',
+                data: [150, 200, 350, 300],
                 backgroundColor: [
                     'rgba(255, 99, 132, 0.2)',
                     'rgba(255, 159, 64, 0.2)',
@@ -59,9 +59,9 @@
                     'rgb(153, 102, 255)',
                     'rgb(201, 203, 207)'
                 ],
-                hoverOffset: 4
-            }],
-
+                borderWidth: 1,
+                hoverOffset: 3
+            }]
 
         },
         options: {
@@ -81,10 +81,17 @@
                     left: 50,
                     top: 50
                 },
-
-            }
+            },
+            scales: {
+                yAxes: [{
+                    ticks: {
+                        min: 0, max: 500
+                    }
+                }]
+            },
         }
     })
+
     var ctx = document.getElementById('myChart2');
     var meuGrafico = new Chart(ctx, {
         type: 'bar',
