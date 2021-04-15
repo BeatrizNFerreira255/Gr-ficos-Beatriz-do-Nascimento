@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url(https://img.freepik.com/free-vector/geometric-grey-background_1102-2396.jpg?size=626&ext=jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header {
+    background-color: #252525f1;
+    color: white;
+    overflow: auto;
+    border-bottom: 5px solid #d474ac;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    text-align: center;
+}
+.header h1{
+    padding: 0;
+    margin: 0;
+}
+.grafico_um {
+    width: 40%;
+    float: left;
+    margin-left: 120px;
+    margin-top: 30px;
+
+}
+.grafico_dois {
+    float: left;
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.grafico_tres {
+    width: 40%;
+    float: left;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+.grafico_quatro {
+    float: left;
+    width: 40%;
+    margin-left: 20px;
+    margin-top: 20px;
+}
